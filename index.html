@@ -177,9 +177,12 @@
         .brand-card:hover::before { opacity: 1; }
 
         .brand-card .card-icon {
-            font-size: 2.4rem;
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
             margin-bottom: 20px;
             display: block;
+            border-radius: 12px;
         }
 
         .brand-card h2 {
@@ -273,6 +276,11 @@
 
             .brand-card { padding: 28px 22px; }
 
+            .brand-card .card-icon {
+                width: 80px;
+                height: 80px;
+            }
+
             .logo-mark::before,
             .logo-mark::after { width: 24px; }
         }
@@ -305,14 +313,14 @@
     <div class="brands">
 
         <a href="https://bosesports.com" target="_blank" class="brand-card bos">
-            <span class="card-icon">🎮</span>
+            <img src="coachbos.png" alt="Coach BOS" class="card-icon">
             <h2>BOS Esports</h2>
-            <p>Neurocognitive performance training for competitive gamers. Reaction drills, focus training, and analytics.</p>
+            <p>High-performance esports training for competitive gamers. This is where you get better every day.</p>
             <span class="card-link">bosesports.com <span class="arrow">→</span></span>
         </a>
 
         <a href="https://heybori.com" target="_blank" class="brand-card bori">
-            <span class="card-icon">🇵🇷</span>
+            <img src="icon.png" alt="Hey Bori" class="card-icon">
             <h2>Hey Bori</h2>
             <p>AI companion for Puerto Rican families. Cultural connection, cognitive games, and bilingual conversations.</p>
             <span class="card-link">heybori.com <span class="arrow">→</span></span>
